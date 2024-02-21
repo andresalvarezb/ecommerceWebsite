@@ -1,65 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--=============== FLATICON ===============-->
-    <link rel="stylesheet" href="" />
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="" />
+	<!--=============== FLATICON ===============-->
+	<link rel="stylesheet" href="" />
 
-    <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="assets/css/styles.css" />
+	<!--=============== SWIPER CSS ===============-->
+	<link rel="stylesheet" href="" />
 
-    <title>Ecommerce Website</title>
-  </head>
-  <body>
-    <header class="header">
-      <div class="header__top">
-        <div class="header__container container">
-          <div class="header__contact">
-            <span>(+01)-2345-6789</span>
-            <span>Our location</span>
-          </div>
-          <p class="header__alert-news">Super value Deals - Save more with counpons</p>
-          <a href="login-register.html" class="header__top-action">Log in / Sing out</a>
-        </div>
-      </div>
-    </header>
+	<!--=============== CSS ===============-->
+	<link rel="stylesheet" href="assets/css/styles.css" />
 
-    <!--=============== MAIN ===============-->
-    <main class="main">
-      <!--=============== HOME ===============-->
-      <section class="home"></section>
+	<title>E-commerce Website</title>
+</head>
 
-      <!--=============== CATEGORIES ===============-->
-      <section class="categories"></section>
+<body>
+	<header class="header">
+		<div class="header__top">
+			<div class="header__container container">
+				<div class="header__contact">
+					<span>(+01)-2345-6789</span>
+					<span>Our location</span>
+				</div>
+				<p class="header__alert-news">Super value Deals - Save more with coupons</p>
+				<a href="login-register.html" class="header__top-action">Log in / Sing out</a>
+			</div>
+		</div>
+		<nav class="nav container">
+			<a href="index.html" class="nav__logo">
+				<img src="assets/img/logo.svg" alt="Logo" class="nav__logo-img">
+			</a>
+			<div class="nav__menu" id="nav-menu">
+				<ul class="nav__list">
+					<li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+					<li class="nav__item"><a href="shop.html" class="nav__link">Shop</a></li>
+					<li class="nav__item"><a href="accounts.html" class="nav__link">My Account</a></li>
+					<li class="nav__item"><a href="compare.html" class="nav__link">Compare</a></li>
+					<li class="nav__item"><a href="login-register.html" class="nav__link">Login</a></li>
+				</ul>
+				<div class="header__search">
+					<input type="text" placeholder="Search for items" class="form__input">
+					<button class="search__btn">
+						<img src="assets/img/search.png" alt="search button">
+					</button>
+				</div>
+			</div>
+			<div class="header__user-actions">
+				<a href="wishlist.html" class="header__action-btn">
+					<img src="assets/img/icon-heart.svg" alt="icon heart">
+					<span class="count">3</span>
+				</a>
+				<a href="cart.html" class="header__action-btn">
+					<img src="assets/img/icon-cart.svg" alt="icon cart">
+					<span class="count">3</span>
+				</a>
+			</div>
+		</nav>
+	</header>
 
-      <!--=============== PRODUCTS ===============-->
-      <section class="products"></section>
+	<!--=============== MAIN ===============-->
+	<main class="main">
+		<!--=============== HOME ===============-->
+		<section class="home"></section>
 
-      <!--=============== DEALS ===============-->
-      <section class="deals"></section>
+		<!--=============== CATEGORIES ===============-->
+		<section class="categories"></section>
 
-      <!--=============== NEW ARRIVALS ===============-->
-      <section class="new__arrivals"></section>
+		<!--=============== PRODUCTS ===============-->
+		<section class="products"></section>
 
-      <!--=============== SHOWCASE ===============-->
-      <section class="showcase"></section>
+		<!--=============== DEALS ===============-->
+		<section class="deals"></section>
 
-      <!--=============== NEWSLETTER ===============-->
-      <section class="newsletter"></section>
-    </main>
+		<!--=============== NEW ARRIVALS ===============-->
+		<section class="new__arrivals"></section>
 
-    <!--=============== FOOTER ===============-->
-    <footer class="footer"></footer>
+		<!--=============== SHOWCASE ===============-->
+		<section class="showcase"></section>
 
-    <!--=============== SWIPER JS ===============-->
-    <script src=""></script>
+		<!--=============== NEWSLETTER ===============-->
+		<section class="newsletter"></section>
+	</main>
 
-    <!--=============== MAIN JS ===============-->
-    <script src=""></script>
-  </body>
+	<!--=============== FOOTER ===============-->
+	<footer class="footer"></footer>
+
+	<!--=============== SWIPER JS ===============-->
+	<script src=""></script>
+
+	<!--=============== MAIN JS ===============-->
+	<script src=""></script>
+</body>
+
 </html>
