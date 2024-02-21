@@ -126,6 +126,7 @@ input {
   border-radius: 0.25rem;
   font-size: var(--small-font-size);
 }
+
 /*=============== HEADER & NAV ===============*/
 .header__top {
   background-color: var(--first-color-alt);
@@ -154,7 +155,7 @@ input {
   font-weight: var(--weight-600);
 }
 
-.header__top-action{
+.header__top-action {
   color: var(--text-color);
 }
 
@@ -187,7 +188,7 @@ input {
   margin: auto;
 }
 
-.nav__link{
+.nav__link {
   color: var(--text-color);
   font-weight: var(--weight-700);
   transition: all 0.2s var(--transition);
@@ -209,19 +210,19 @@ input {
   cursor: pointer;
 }
 
-.header__user-actions{
+.header__user-actions {
   gap: 1.25rem;
 }
 
-.header__action-btn{
-  position:relative;
+.header__action-btn {
+  position: relative;
 }
 
-.header__action-btn img{
+.header__action-btn img {
   width: 30px;
 }
 
-.header__action-btn .count{
+.header__action-btn .count {
   position: absolute;
   top: -0.625rem;
   right: -0.625rem;
@@ -235,24 +236,35 @@ input {
   font-size: var(--tiny-font-size);
 }
 
-
-
-
-
-
-
-
-
-
-
 /* Active link */
 .active-link,
-.nav__link:hover{
+.nav__link:hover {
   color: var(--first-color);
 }
 
 /*=============== HOME ===============*/
+.home {
+  padding-block-start: 2rem;
+}
 
+.home__container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap:2rem;
+  align-items: center;
+  justify-items: center;
+}
+
+.home__content {
+  grid-column: 1 / 2;
+  justify-content: flex-start;
+}
+
+.home__img{
+  width: 100%;
+  grid-column: 2 / 3;
+  justify-content: flex-end;
+}
 /*=============== BUTTONS ===============*/
 
 /*=============== CATEGORIES ===============*/
