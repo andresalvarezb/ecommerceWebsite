@@ -136,6 +136,19 @@ input {
   padding-block: 4rem;
 }
 
+.section {
+  padding-block: 2rem;
+}
+
+.section__title {
+  font-size: var(--h4-font-size);
+  margin-bottom: 1.5rem;
+}
+
+.section__title span{
+ color: var(--first-color);
+}
+
 /*=============== HEADER & NAV ===============*/
 .header__top {
   background-color: var(--first-color-alt);
@@ -316,8 +329,57 @@ input {
 }
 
 /*=============== CATEGORIES ===============*/
+.categories {
+  overflow: hidden;
+}
 
+.category__item {
+  text-align: center;
+  border: 1px solid var(--border-color);
+  padding: 0.625rem 0.625rem 1.25rem;
+  border-radius: 1.25rem;
+}
+
+.category__img {
+  width: 100%;
+  border-radius: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.category__title {
+  color: var(--text-color);
+  font-size: var(--small-font-size);
+}
 /* Swiper class */
+.swiper {
+  overflow: initial;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  content: '';
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  top: -1.875rem;
+  background-color: var(--first-color-alt);
+  border: 1px solid var(--border-color);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: var(--first-color);
+  font-size: var(--tiny-font-size);
+}
+
+.swiper-button-prev {
+  left: initial;
+  right: 2.5rem;
+}
+
+.swiper-button-next {
+  right: 0;
+}
 
 /*=============== PRODUCTS ===============*/
 
